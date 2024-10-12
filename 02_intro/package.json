@@ -1,12 +1,13 @@
 {
-  "name": "01_intro",
+  "name": "02_intro",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "server": "json-server --watch db.json --port 8080"
   },
   "dependencies": {
     "@headlessui/react": "^2.1.10",
